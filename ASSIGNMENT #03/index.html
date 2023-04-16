@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Bodoni+Moda:ital,opsz@1,6..96&family=Chivo+Mono:wght@200&family=Shantell+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css" />
+<script src="./app.js" defer></script>
+
+<body>
+  
+    <h2>UI</h2>
+    
+    <div class="search-form-container">
+    <p>
+        Genre:
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Search for genre..."
+        />
+        Year:
+        <input
+            id="searchInput2"
+            type="text"
+            placeholder="Search for year..."
+            />
+        Language:
+            <input
+              id="searchInput3"
+              type="text"
+              placeholder="Search for language..."
+            />
+        </p>
+         Rating:
+            <input
+              id="searchInput4"
+              type="text"
+              placeholder="Search for rating..."
+              />
+            
+            <p><button id="searchBtn">Search</button></p>
+      </div>
+      
+      <main>
+        <section id="movieResults">
+          <h2 class="search-results-heading">Search Results</h2>
+          <div class="list-container">
+            <ul id="movie-list"></ul>
+          </div>
+        </section>
+        <section id="movieDetails">
+          <h2>Movie Details</h2>
+          <div id="movieDetailsContainer"></div>
+        </section>
+      </main>
+    
+    
+</body>
+</html>
